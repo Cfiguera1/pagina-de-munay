@@ -10,6 +10,12 @@ ScrollReveal().reveal('.btn-mas2',{delay:400});
 ScrollReveal().reveal('.container-footer',{delay:300});
 ScrollReveal().reveal('#cuenta',{delay:300});
 ScrollReveal().reveal('.mensaje',{delay:300});
+ScrollReveal().reveal('.mensaje3',{delay:300});
+ScrollReveal().reveal('.mensaje2',{delay:300});
+ScrollReveal().reveal('.mensaje4',{delay:300});
+
+
+
 
 
 
