@@ -8,6 +8,9 @@ ScrollReveal().reveal('.whatsapp-c',{delay:600});
 ScrollReveal().reveal('.container-mas',{delay:500});
 ScrollReveal().reveal('.btn-mas2',{delay:400});
 ScrollReveal().reveal('.container-footer',{delay:300});
+ScrollReveal().reveal('#cuenta',{delay:300});
+ScrollReveal().reveal('.mensaje',{delay:300});
+
 
 
 simplyCountdown('#cuenta', {
