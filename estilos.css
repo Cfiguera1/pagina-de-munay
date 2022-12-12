@@ -135,6 +135,21 @@ img.whatsapp {
 .btn-mas{
   display: none;
 }
+/*  
+.btn-mas2{
+  display: block;
+  text-decoration: none;
+  height: 55px;
+  line-height: 55px;
+  color: #fff;
+  width: 55px;
+  border: solid;
+  background-color: #28a745;
+  text-align: center;
+  border-radius: 50px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.4) ;
+ 
+}*/
 .whatsapp-c{
   position: fixed;
   bottom: 20px;
@@ -145,7 +160,7 @@ img.whatsapp {
   bottom: 20px;
   right: 20px;
 }
-.redes a, .icon-plus {
+.redes a, .fa-plus {
   display: block;
   text-decoration: none;
   height: 55px;
@@ -154,11 +169,11 @@ img.whatsapp {
   width: 55px;
   background-color: #28a745;
   text-align: center;
-  border-radius: 50px;
+  border-radius: 50%;
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.4) ;
   transition: all 500ms ease;
 }
-.redes a:hover, .icon-plus:hover {
+.redes a:hover, .fa-plus:hover {
   background: #fff;
   color: #28a745;
 }
@@ -264,7 +279,7 @@ input#btn-menu.btn-menu{
   .nav-main ul.nav-menu.show{
     transform: translateX(-20px);
   }
-  .cars{
+  .cards{
     grid-template-columns: repeat(2, 1fr);
   }
   .lbl-menu{
@@ -308,5 +323,11 @@ input#btn-menu.btn-menu{
   }
 }
 
+
+ @media(max-width:400px){
+  .cards{
+    grid-template-columns: repeat(1, 1fr);
+  }
+} 
 
 

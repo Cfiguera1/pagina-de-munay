@@ -1,0 +1,94 @@
+
+.logotipo {
+    text-align: center;
+}
+.mensaje2{
+    font-size: 25px;
+    text-align: center;
+}
+div.mensaje {
+    margin: 60px;
+    margin-bottom: 60px;
+    
+
+}
+img.hr {
+    width: 400px;
+    margin: auto;
+    height: 40px;
+    display: block;
+}
+.fa-plus{
+    font-size: 30px;
+    line-height: -10px;
+}
+
+.mensaje3 {
+    padding: 20px;
+    border: 2px solid white;
+    background-color: #23a;
+}
+.mensaje4 {
+    font-size: 20px;
+    text-align: center;
+}
+#cuenta {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+
+}
+
+.simply-section {
+    background-color: #fff;
+    color: black;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 180px;
+    margin: 0 20px;
+    border-radius: 5px;
+}
+.simply-amount{
+    display: block;
+    font-size: 50px;
+    font-weight: 700;
+}
+.simply-word {
+    font-size: 30px;
+    font-weight: 300px;
+}
+@media(max-width:700px){
+    .simply-section{
+        width: 90px; height: 90px;
+        margin: 0 10px;
+    }
+    .simply-amount{
+        display: block;
+        font-size: 20px;
+        font-weight: 300;
+    }
+    .simply-word {
+        font-size: 20px;
+        font-weight: 200;
+    }
+}
+    @media(max-width:400px){
+        .simply-section
+        {
+            width: 40px; height: 40px;
+            margin: 0 5px;
+        }
+        .simply-amount{
+            display: block;
+            font-size: 20px;
+            font-weight: 100;
+        }
+        .simply-word {
+            font-size: 10px;
+            font-weight: 50;
+        }
+    }
